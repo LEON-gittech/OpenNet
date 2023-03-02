@@ -1,0 +1,14 @@
+# ninja log v5
+0	198	1676092942937606778	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/cuda_version.o	d7100872ff7dd593
+1	3585	1676092946321631247	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/nms_rotated/nms_rotated_cpu.o	5f0587be09e3a09a
+1	5442	1676092948177644682	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/cocoeval/cocoeval.o	95b5d600b5d46b50
+1	5482	1676092948217644971	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cpu.o	3ff26b3e1f93ec7f
+0	6100	1676092948837649462	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/ROIAlign/ROIAlign_cpu.o	df10b5c19ccb7c7b
+1	6284	1676092949021650794	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cuda.o	657b8664af3a0fe7
+0	6466	1676092949201652099	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cpu.o	905aa38eb11e7cc4
+0	7460	1676092950197659315	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/ROIAlign/ROIAlign_cuda.o	34113f201edbf93b
+1	7583	1676092950321660214	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/nms_rotated/nms_rotated_cuda.o	4d25792fb81521a6
+1	8410	1676092951145666188	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/deformable/deform_conv_cuda.o	c306b9268ac5a96e
+1	8677	1676092951413668131	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cuda.o	882153ebd968d4e7
+1	9032	1676092951769670712	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/deformable/deform_conv_cuda_kernel.o	857dbee410e281f8
+1	13785	1676092956517705178	/home/leon/OWOD_new/build/temp.linux-x86_64-cpython-37/home/leon/OWOD_new/detectron2/layers/csrc/vision.o	e5811b897fda88f0

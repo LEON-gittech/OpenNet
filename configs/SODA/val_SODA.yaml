@@ -1,0 +1,18 @@
+_BASE_: "/home/leon/OWOD/configs/Base-RCNN-C4-OWOD.yaml"
+MODEL:
+  WEIGHTS: 'detectron2://ImageNetPretrained/MSRA/R-50.pkl'
+  ROI_HEADS:
+    NMS_THRESH_TEST: 0.4
+TEST:
+  DETECTIONS_PER_IMAGE: 50
+DATASETS:
+  TRAIN: ('train_SODA', ) # t1_voc_coco_2007_train, t1_voc_coco_2007_ft
+  TEST: ('val_SODA', )   # voc_coco_2007_test, t1_voc_coco_2007_test, t1_voc_coco_2007_val
+SOLVER:
+  STEPS: (12000, 16000)
+  MAX_ITER: 18000
+  WARMUP_ITERS: 100
+OUTPUT_DIR: "./output/val_SODA"
+OWOD:
+  PREV_INTRODUCED_CLS: 0
+  CUR_INTRODUCED_CLS: 6
